@@ -3,10 +3,9 @@ name = "using-liquidswap"
 version = "0.0.0"
 
 [dependencies]
-Liquidswap = { git = "https://github.com/pontem-network/liquidswap.git", rev = "v0.2.2" }
+Liquidswap = { git = "https://github.com/ThalaLabs/liquidswap.git", rev = "68377b9cee06eae6ad171ef8e4f38cb00071faf1" }
 LiquidswapLP = { git = "https://github.com/pontem-network/liquidswap-lp.git", rev = "v0.4.3" }
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
 
 [addresses]
 example = "0x1"
-
